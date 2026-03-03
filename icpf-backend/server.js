@@ -6,7 +6,7 @@ const fs = require('fs')
 const ExcelJS = require('exceljs')
 
 const app = express()
-const PORT = 5000
+const PORT = process.env.PORT || 5000
 const ADMIN_TOKEN = 'icpf-admin-2025'
 
 // ── Simple JSON file database ─────────────────────────────────
