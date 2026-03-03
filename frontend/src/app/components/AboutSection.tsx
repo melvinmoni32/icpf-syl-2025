@@ -34,7 +34,7 @@ export function AboutSection() {
               "We believe that when young people are deeply rooted in Christ, they become powerful instruments of transformation in every sphere of society."
             </div>
             <p style={{ fontFamily: 'Inter, sans-serif', fontSize: 16, color: '#555', lineHeight: 1.9, marginBottom: 28 }}>
-              Through intentional discipleship, biblical teaching, and hands-on ministry experience, SYL prepares students to become catalysts for Kingdom advancement.
+              Through intentional discipleship, Biblical teaching, and hands-on ministry experience, SYL prepares students to become catalysts for Kingdom advancement.
             </p>
             <button
               onClick={() => document.getElementById('application-form')?.scrollIntoView({ behavior: 'smooth' })}
