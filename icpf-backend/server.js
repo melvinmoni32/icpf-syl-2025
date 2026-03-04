@@ -17,9 +17,7 @@ let registrationsCollection;
 async function connectDB() {
   try {
     const client = new MongoClient(MONGO_URI, {
-  serverSelectionTimeoutMS: 5000,
-  tls: true,
-  tlsInsecure: true
+  serverSelectionTimeoutMS: 10000,
 });
     await client.connect();
     db = client.db('icpf-syl');
