@@ -16,7 +16,10 @@ let registrationsCollection;
 
 async function connectDB() {
   try {
-    const client = new MongoClient(MONGO_URI);
+    const client = new MongoClient(MONGO_URI, {
+     tls: true,
+     tlsAllowInvalidCertificates: true,
+});
     await client.connect();
     db = client.db('icpf-syl');
     registrationsCollection = db.collection('registrations');
