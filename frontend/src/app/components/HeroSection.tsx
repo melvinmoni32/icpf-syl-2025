@@ -58,8 +58,8 @@ export function HeroSection() {
           <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(26,34,9,0.55) 0%, transparent 45%)' }} />
           <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, padding: '28px 36px', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', flexWrap: 'wrap', gap: 12 }}>
             <div>
-              <div style={{ color: '#fff', fontFamily: "'Instrument Serif', serif", fontSize: 22, marginBottom: 4 }}>Impacting the New Generation</div>
-              <div style={{ color: 'rgba(255,255,255,0.7)', fontFamily: 'Inter, sans-serif', fontSize: 13 }}>Mount Olive Counselling Centre · Thrissur, Kerala</div>
+              <div style={{ color: '#fff', fontFamily: "'Instrument Serif', serif", fontSize: 22, marginBottom: 4 }}></div>
+              <div style={{ color: 'rgba(255,255,255,0.7)', fontFamily: 'Inter, sans-serif', fontSize: 13 }}></div>
             </div>
             <div style={{ display: 'flex', gap: 24 }}>
               {[['Est.','1980'],['Mission','Nationwide']].map(([l,v]) => (
