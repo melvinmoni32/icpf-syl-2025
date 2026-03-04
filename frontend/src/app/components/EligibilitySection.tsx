@@ -1,7 +1,7 @@
 export function EligibilitySection() {
   const criteria = [
     { text: 'Deeply surrendered to Jesus Christ', icon: '✝️' },
-    { text: 'Age 18 years or above', icon: '🎓' },
+    { text: 'Class +2 and above', icon: '🎓' },
     { text: 'Proficient in English language', icon: '📖' },
   ];
 
