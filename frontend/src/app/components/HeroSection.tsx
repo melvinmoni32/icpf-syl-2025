@@ -62,7 +62,7 @@ export function HeroSection() {
               <div style={{ color: 'rgba(255,255,255,0.7)', fontFamily: 'Inter, sans-serif', fontSize: 13 }}></div>
             </div>
             <div style={{ display: 'flex', gap: 24 }}>
-              {[['Est.','1980'],['Mission','Nationwide']].map(([l,v]) => (
+              {[[],[]].map(([l,v]) => (
                 <div key={l} style={{ textAlign: 'center' }}>
                   <div style={{ color: '#A3B18A', fontFamily: "'Instrument Serif', serif", fontSize: 20 }}>{v}</div>
                   <div style={{ color: 'rgba(255,255,255,0.55)', fontSize: 11, fontFamily: 'Inter, sans-serif', letterSpacing: 1 }}>{l}</div>
