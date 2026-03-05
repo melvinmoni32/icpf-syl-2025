@@ -53,7 +53,7 @@ export function Footer() {
             © 2025 School of Youth Leadership · All rights reserved
           </p>
           <p style={{ color: 'rgba(255,255,255,0.4)', fontSize: 13, margin: 0, fontFamily: 'Inter, sans-serif' }}>
-            Made with 🙏 for ICPF
+          
           </p>
         </div>
       </div>
