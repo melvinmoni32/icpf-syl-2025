@@ -38,7 +38,7 @@ export function HeroSection() {
               style={{ background: '#4A5D23', color: '#fff', border: 'none', padding: '14px 36px', borderRadius: 100, fontFamily: 'Inter, sans-serif', fontWeight: 700, fontSize: 14, letterSpacing: 0.5, cursor: 'pointer', boxShadow: '0 6px 20px rgba(74,93,35,0.28)', transition: 'all 0.2s' }}
               onMouseOver={e => { e.currentTarget.style.background = '#3d4e1d'; e.currentTarget.style.transform = 'translateY(-2px)'; }}
               onMouseOut={e => { e.currentTarget.style.background = '#4A5D23'; e.currentTarget.style.transform = 'translateY(0)'; }}>
-              Apply for SYL 2025
+              Apply for SYL 2026
             </button>
             <button onClick={() => document.getElementById('syl-method')?.scrollIntoView({ behavior: 'smooth' })}
               style={{ background: 'transparent', color: '#4A5D23', border: '1.5px solid rgba(74,93,35,0.3)', padding: '14px 32px', borderRadius: 100, fontFamily: 'Inter, sans-serif', fontWeight: 600, fontSize: 14, cursor: 'pointer', transition: 'all 0.2s' }}
