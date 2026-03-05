@@ -103,7 +103,7 @@ export function ApplicationForm({ onSubmitSuccess }: ApplicationFormProps) {
         {/* Header */}
         <div style={{ textAlign: 'center', marginBottom: 52 }}>
           <div style={{ display: 'inline-block', background: 'rgba(74,93,35,0.08)', border: '1px solid rgba(74,93,35,0.15)', borderRadius: 6, padding: '5px 14px', marginBottom: 18 }}>
-            <span style={{ color: '#4A5D23', fontSize: 11, fontWeight: 700, letterSpacing: 2, textTransform: 'uppercase' as const, fontFamily: 'Inter, sans-serif' }}>SYL 2025</span>
+            <span style={{ color: '#4A5D23', fontSize: 11, fontWeight: 700, letterSpacing: 2, textTransform: 'uppercase' as const, fontFamily: 'Inter, sans-serif' }}>SYL 2026</span>
           </div>
           <h2 style={{ fontFamily: "'Instrument Serif', serif", fontSize: 'clamp(36px,5vw,54px)', color: '#4A5D23', margin: '0 0 14px', fontWeight: 400 }}>
             Application Form
