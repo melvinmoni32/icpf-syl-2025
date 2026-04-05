@@ -53,7 +53,7 @@ export function ApplicationForm({ onSubmitSuccess }: ApplicationFormProps) {
     setSubmitting(true);
     setError('');
     try {
-      const res = await fetch('https://icpf-syl-2026-production.up.railway.app/api/register', {
+      const res = await fetch('https://icpf-syl-2025.onrender.com/api/register', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
